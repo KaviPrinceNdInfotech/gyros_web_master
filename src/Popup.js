@@ -37,11 +37,7 @@ export default function App() {
             console.warn("result", result);
         })
         
-        useEffect(()=>{
-            setTimeout(()=>{
-                setStaticModal()
-            }, 2000)
-          }, [])
+        
 
 
     }

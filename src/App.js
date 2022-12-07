@@ -67,6 +67,7 @@ import Checkoutprice from './Checkoutprice';
 import Sitemap from './Sitemap';
 import Deliveryestimate from './Deliveryestimate';
 import Review from './Review';
+import Popup from "./Popup"
 
 // import RegistrationPage from './Auth/RegistrationPage';
 // import LoginNew from './Auth/LoginNew';
@@ -85,7 +86,7 @@ export default function App() {
 <div className="App">
 
   <Routes>
-  <Route exact path='/' element={[< Home />]}></Route>
+  <Route exact path='/' element={[< Home />,<Popup/>]}></Route>
   <Route exact path='/Sizebutton' element={<Sizebutton/>}></Route>
   <Route exact path='/Aboutproductdetails' element={< Aboutproductdetails />}></Route>
   <Route exact path='/Fulldescriptionimage' element={< Fulldescriptionimage />}></Route>
