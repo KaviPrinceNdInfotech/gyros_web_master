@@ -8,9 +8,9 @@ import Bestsellerweek from './Bestsellerweek';
 import Toppicks from './Toppicks';
 import Believe from './Believe';
 import Footer from './Footer';
-import Popup from './Popup'
+// import Popup from './Popup'
 
-// import Popup from "./Popup";
+import Popup from "./Popup";
 
 
 
